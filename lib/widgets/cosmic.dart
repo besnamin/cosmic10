@@ -42,7 +42,7 @@ class Cosmic extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             width: size.width * 0.6,
             child: const Text(
-                'Lorem ipsum dolor sit amet consectetur adipiscing elit purus, maecenas class augue convallis molestie etiam est mollis commodo, lacinia volutpat interdum.'),
+                'Bienvenido, aqui podras encontrar las mejores lineas de maquillaje y cuidado personal.'),
             decoration: boxDecoration,
           ),
         ],

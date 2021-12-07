@@ -41,7 +41,7 @@ class Post extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
           width: size.width * 0.8,
           child: const Text(
-              'Lorem ipsum dolor sit amet consectetur adipiscing elit purus, maecenas class augue convallis molestie etiam est mollis commodo, lacinia volutpat interdum ligula dictumst donec nascetur. Vehicula aliquet luctus ac potenti malesuada risus aenean condimentum, in eget fringilla ultr.'),
+              'Bienvenido al mejor sitio para encontrar maquillajes y productos de belleza'),
           decoration: boxDecoration,
         ),
         const SizedBox(
