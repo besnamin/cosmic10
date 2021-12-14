@@ -1,3 +1,4 @@
+
 import 'package:cosmic10/models/cosmic_model.dart';
 import 'package:cosmic10/models/populars_medel.dart';
 import 'package:get/get.dart';
@@ -36,7 +37,7 @@ Future<List<Populars>> getCosmicPopulars() async{
   //   'language' : _language
   // });
 
-  final resp = await get('https://api.themoviedb.org/3/movie/popular?api_key=f3590619f35d9842fae181598786e2b2&language=es-ES&page=1');
+  final resp = await get('https://api.themoviedb.org/3/movie/now_playing?api_key=f3590619f35d9842fae181598786e2b2&language=es-ES&page=1');
   final popularResponse = PopularsResponse.fromMap(resp.body);
   // final pelicula = moviesResponse.results[1];
   

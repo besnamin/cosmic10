@@ -23,7 +23,8 @@ class LoginController extends GetxController{
       Future.delayed(
         const Duration(milliseconds: 500),
         (){
-          Get.toNamed('/home');
+          //Get.toNamed('/home');
+          Get.toNamed('/page');
         }
       );
     } catch (e){
@@ -49,7 +50,7 @@ class LoginController extends GetxController{
     final String uid = user.uid;
     Get.snackbar('Out', '$uid ha cerrado sesión correctamente',
     snackPosition: SnackPosition.TOP);
-    Get.toNamed('/');
+    Get.toNamed('/login');
     
   }
 

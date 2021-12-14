@@ -1,4 +1,7 @@
 import 'package:cosmic10/Controller/login_controller.dart';
+import 'package:cosmic10/Controller/theme_controller.dart';
+import 'package:cosmic10/pages/response_page.dart';
+import 'package:cosmic10/pages/response_screen.dart';
 import 'package:cosmic10/widgets/cosmic_list.dart';
 import 'package:cosmic10/widgets/estados_list.dart';
 import 'package:cosmic10/widgets/post_list.dart';

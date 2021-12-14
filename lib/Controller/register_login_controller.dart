@@ -34,7 +34,7 @@ class LoginRegisterController extends GetxController{
       Future.delayed(
         const Duration(milliseconds: 500),
         (){
-          Get.offAndToNamed('/');
+          Get.offAndToNamed('/login');
         },
       );
       _userEmail = user.email!;

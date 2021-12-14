@@ -1,5 +1,7 @@
+import 'package:cosmic10/Controller/theme_controller.dart';
 import 'package:cosmic10/widgets/estados.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class EstadosList extends StatelessWidget {
   const EstadosList({Key? key}) : super(key: key);

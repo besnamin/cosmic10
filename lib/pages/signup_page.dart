@@ -39,7 +39,7 @@ class SignupPage extends StatelessWidget {
                 child: const Text('Ya tengo una cuenta',
                     style: TextStyle(color: Colors.pink, fontSize: 14)),
                 onPressed: () {
-                  Get.offAndToNamed('/');
+                  Get.offAndToNamed('/login');
                 },
               ),
             ],
